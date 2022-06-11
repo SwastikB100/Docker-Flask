@@ -6,7 +6,9 @@ from flask import (Flask,
                    render_template)
 import mysql.connector
 import json
+import time
 
+time.sleep(20)
 app = Flask(__name__,template_folder="templates")
 
 # Connecting to Sql
